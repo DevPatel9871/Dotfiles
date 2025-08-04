@@ -1,0 +1,2 @@
+-f best
+-o ~/Downloads/%(extractor)s/%(title)s.%(ext)s

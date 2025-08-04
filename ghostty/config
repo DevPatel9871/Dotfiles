@@ -1,0 +1,31 @@
+# The syntax is "key = value". The whitespace around the
+# equals doesn't matter.
+# background = 000000
+foreground = c7c7c7
+background-opacity = 0.95
+font-size = 18
+
+# Comments start with a `#` and are only valid on their own line.
+# Blank lines are ignored!
+
+keybind = ctrl+z=close_surface
+keybind = ctrl+d=new_split:right
+keybind = ctrl+h=new_split:up
+keybind = cmd+backspace=esc:w
+
+
+
+# Empty values reset the configuration to the default value
+font-family = JetBrains Mono
+
+# Themes
+theme = catppuccin-mocha
+
+# Opening window in maximize
+maximize = true
+# fullscreen = true
+
+
+# Closing window with last tab
+quit-after-last-window-closed=true
+confirm-close-surface = false

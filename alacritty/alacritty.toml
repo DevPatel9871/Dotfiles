@@ -1,0 +1,36 @@
+[window]
+decorations = "Buttonless"
+
+# startup_mode = "Fullscreen"
+startup_mode = "Maximized"
+
+padding.x = 5
+padding.y = 10
+
+opacity = 1
+blur = false
+
+option_as_alt = "Both"
+
+dimensions = { columns = 92, lines = 33 }
+
+position = { x = 715, y = 90 }
+
+[general]
+import = [
+    "~/.config/alacritty/catppuccin-macchiato.toml"
+]
+live_config_reload = true
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+size = 18
+
+[env]
+TERM = "xterm-256color"
+
+[keyboard]
+bindings = [
+{ key = "f", mods = "Command", action = "ToggleMaximized" },
+
+]
